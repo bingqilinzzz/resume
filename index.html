@@ -8,8 +8,6 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
         <link href="css/moncv.css" rel="stylesheet">
-        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class="resume">
@@ -17,96 +15,88 @@
                 <div class="name">Qingyun Zhang</div>
                 <div class="cv">Curriculum vitae</div>
                 <div class="myinfo row">
-                    <div class="vertical photo col-sm-push-8 col-sm-4 col-xs-12">
+                    <div class="vertical photo col-xs-12 col-sm-12 col-md-push-8 col-md-4">
                         <img src="https://0.s3.envato.com/files/104140228/themeelite-logo.png">
                     </div>
-                    <div class="vertical col-sm-pull-4 col-sm-4 col-xs-6">
+                    <div class="vertical col-xs-12 col-sm-6 col-md-pull-4 col-md-4">
                         <div class="v-line1">
-                            <span class="icons glyphicon glyphicon-earphone"></span>
-                            <span class="vinfo">xxx</span>
+                            <i class="fa fa-fw fa-birthday-cake" aria-hidden="true"></i>
+                            <span class="vinfo">Sep. 10 1990</span>
                         </div>
                         <div class="v-line1">
-                            <span class="icons glyphicon glyphicon-earphone"></span>
-                            <span class="vinfo">xxx</span>
+                            <i class="fa fa-fw fa-phone" aria-hidden="true"></i>
+                            <span class="vinfo"><a href="tel:4389270910">(438) 927 0910</a></span>
                         </div>
                         <div class="v-line1">
-                            <span class="icons glyphicon glyphicon-earphone"></span>
-                            <span class="vinfo">xxx</span>
+                            <i class="fa fa-fw fa-globe" aria-hidden="true"></i>
+                            <span class="vinfo"><a href="http://julia.moe" target="_blank">julia.moe</a></span>
                         </div>
                     </div>
-                    <div class="vertical col-sm-pull-4 col-sm-4 col-xs-6">
+                    <div class="vertical col-xs-12 col-sm-6 col-md-pull-4 col-md-4">
                         <div class="v-line1">
-                            <span class="icons glyphicon glyphicon-earphone"></span>
-                            <span class="vinfo">xxx</span>
+                            <i class="fa fa-fw fa-envelope" aria-hidden="true"></i>
+                            <span class="vinfo"><a href="mailto:julie@julia.moe" target="_blank">julie@julia.moe</a></span>
                         </div>
                         <div class="v-line1">
-                            <span class="icons glyphicon glyphicon-earphone"></span>
-                            <span class="vinfo">xxx</span>
+                            <i class="fa fa-fw fa-linkedin" aria-hidden="true"></i>
+                            <span class="vinfo"><a href="https://ca.linkedin.com/in/qingyun-zhang-416a61126" target="_blank">qingyun zhang</a></span>
                         </div>
                         <div class="v-line1">
-                            <span class="icons glyphicon glyphicon-earphone"></span>
-                            <span class="vinfo">xxx</span>
+                            <i class="fa fa-fw fa-facebook" aria-hidden="true"></i>
+                            <span class="vinfo"><a href="https://www.facebook.com/zhang.qingyun.7" target="_blank">zhang.qingyun.7</a></span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="break-line"></div>
-            <div class="section">
+            <div id="work-experience" class="section">
                 <div class="header">
-                    <span class="icon glyphicon glyphicon-lock"></span>
-                    <span class="title">titles</span>
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <span class="title">Work experience</span>
                 </div>
                 <div class="body-content">
-                    <div class="item">
+                    <div class="item" v-for="work in works">
                         <div class="wrap row">
                             <div class="xtime col-sm-2 col-xs-12">
-                                <div class="start">06/2015</div>
-                                <div calss="end">11/2015</div>
+                                <div class="start">{{work.start}}</div>
+                                <div class="end">{{work.end}}</div>
                             </div>
                             <div class="dot col-sm-1 col-xs-12">
                                 <i class="dotted" aria-hidden="true"></i>
                             </div>
                             <div class="xcontent col-sm-9 col-xs-12">
-                                <div class="xname">front-end developer</div>
-                                <div class="xposition">xxxxxxx|xxxxx</div>
-                                <div class="xinfo"><p>For performance reasons, all icons require a base class and individual icon class. To use, place the following code just about anywhere. Be sure to leave a space between the icon and text for proper padding.</p></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="wrap row">
-                            <div class="xtime col-sm-2 col-xs-12">
-                                <div class="start">06/2015</div>
-                                <div calss="end">11/2015</div>
-                            </div>
-                            <div class="dot col-sm-1 col-xs-12">
-                                <i class="dotted" aria-hidden="true"></i>
-                            </div>
-                            <div class="xcontent col-sm-9 col-xs-12">
-                                <div class="xname">front-end developer</div>
-                                <div class="xposition">xxxxxxx|xxxxx</div>
-                                <div class="xinfo"><p>For performance reasons, all icons require a base class and individual icon class. To use, place the following code just about anywhere. Be sure to leave a space between the icon and text for proper padding.</p></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="wrap row">
-                            <div class="xtime col-sm-2 col-xs-12">
-                                <div class="start">06/2015</div>
-                                <div calss="end">11/2015</div>
-                            </div>
-                            <div class="dot col-sm-1 col-xs-12">
-                                <i class="dotted" aria-hidden="true"></i>
-                            </div>
-                            <div class="xcontent col-sm-9 col-xs-12">
-                                <div class="xname">front-end developer</div>
-                                <div class="xposition">xxxxxxx|xxxxx</div>
-                                <div class="xinfo"><p>For performance reasons, all icons require a base class and individual icon class. To use, place the following code just about anywhere. Be sure to leave a space between the icon and text for proper padding.</p></div>
+                                <div class="xname">{{work.company}}</div>
+                                <div class="xposition">{{work.position}}</div>
+                                <div class="xinfo"><p>{{work.responsebility}}</p></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div id="skillset" class="section">
+                <div class="header">
+                    <i class="fa fa-wrench" aria-hidden="true"></i>
+                    <span class="title">My skillset</span>
+                </div>
+                <div class="skills rows">
+                    <div class="skill col-xs-12 col-sm-6 col-md-3" v-for="skill in skills">
+                        <div class="name">
+                            {{skill.name}}
+                        </div>
+                        <div class="level" data-level="{{skill.level}}">
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                            <i class="fa fa-circle" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/vue.min.js"></script>
+        <script type="text/javascript" src="js/moncv.js"></script>
     </body>
 </html>
