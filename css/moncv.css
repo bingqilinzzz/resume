@@ -13,7 +13,25 @@
 	color: grey;
 }
 
-/* titles */
+/* vertical content and section titles */
+.header {
+/*	display:inline-block;*/
+}
+.icons {
+	padding: 20px 10px 5px 40px;
+}
+.vinfo {
+
+}
 .icon {
+	padding: 20px;
+}
+.title {
+	line-height: 54px;
+    font-size: 24px;
+}
+
+/* work-expierence */
+.start, .end {
 	
 }
