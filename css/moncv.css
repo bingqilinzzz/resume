@@ -6,6 +6,20 @@ html, body {
     font-family: 'Roboto Mono', monospace;
     color: rgb(54, 54, 54);
     font-size: 14px;
+    position: relative;
+}
+
+/* loading */
+.loading {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+.loading div {
+    margin: auto;
+    height: 20px;
+    line-height: 20px;
 }
 
 /* resume body */

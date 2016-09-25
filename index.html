@@ -10,7 +10,7 @@
         <link href="css/moncv.css" rel="stylesheet">
     </head>
     <body>
-        <div class="resume">
+        <div class="resume" style="display: none">
             <div class="summary">
                 <div class="name">Qingyun Zhang</div>
                 <div class="cv">Curriculum vitae</div>
@@ -73,6 +73,30 @@
                     </div>
                 </div>
             </div>
+            <div id="education" class="section">
+                <div class="header">
+                    <i class="fa fa-university" aria-hidden="true"></i>
+                    <span class="title">Education</span>
+                </div>
+                <div class="body-content">
+                    <div class="item" v-for="education in educations">
+                        <div class="wrap row">
+                            <div class="xtime col-sm-2 col-xs-12">
+                                <div class="start">{{education.start}}</div>
+                                <div class="end">{{education.end}}</div>
+                            </div>
+                            <div class="dot col-sm-1 col-xs-12">
+                                <i class="dotted" aria-hidden="true"></i>
+                            </div>
+                            <div class="xcontent col-sm-9 col-xs-12">
+                                <div class="company">{{education.company}}</div>
+                                <div class="xposition">{{education.position}}</div>
+                                <div class="xinfo"><p>{{education.responsebility}}</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="skillset" class="section">
                 <div class="header">
                     <i class="fa fa-wrench" aria-hidden="true"></i>
@@ -93,7 +117,32 @@
                     </div>
                 </div>
             </div>
+            <div id="hobbies" class="section">
+                <div class="header">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                    <span class="title">Hobbies</span>
+                </div>
+                <div class="rows">
+                    <div class="col-xs-6 col-sm-3 col-md-1" v-for="hobby in hobbies">
+                        {{hobby}}
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="loading">
+            <div id="loading">loading...</div>
+        </div>
+        <script type="text/javascript">
+            var str = 'loading...';
+            var index = str.length;
+            var offset = -1;
+            var interval = setInterval(function() {
+                if (index === 0 || index > str.length) offset *= -1;
+                document.getElementById('loading').innerHTML = str.substring(0, index);
+                index += offset;
+                console.log('run');
+            }, 50);
+        </script>
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/vue.min.js"></script>
