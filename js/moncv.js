@@ -24,8 +24,10 @@ $(function() {
                 if (index < level) $(elem).addClass('up');
             });
         });
-        $('.resume').css('display', 'block');
-        $('.loading').css('display', 'none');
-        clearInterval(interval);
+        setTimeout(function() {
+            $('.resume').css('display', 'block');
+            $('.loading').css('display', 'none');
+            clearInterval(interval);
+        }, 3000);
     });
 });

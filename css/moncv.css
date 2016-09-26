@@ -175,4 +175,7 @@ html, body {
     .start, .end {
         display: inline-block;
     }
+    .resume {
+        padding: 32px 20px;
+    }
 }
