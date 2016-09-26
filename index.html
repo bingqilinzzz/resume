@@ -67,7 +67,7 @@
                             <div class="xcontent col-sm-9 col-xs-12">
                                 <div class="company">{{work.company}}</div>
                                 <div class="xposition">{{work.xposition}}</div>
-                                <div class="xinfo"><p>{{work.responsibility}}</p></div>
+                                <div class="xinfo"><p>{{work.responsebility}}</p></div>
                             </div>
                         </div>
                     </div>
@@ -137,10 +137,9 @@
             var index = str.length;
             var offset = -1;
             var interval = setInterval(function() {
-                if (index === 0 || index > str.length) offset *= -1;
-                document.getElementById('loading').innerHTML = str.substring(0, index);
+            if (index === 0 || index > str.length) offset *= -1;
+            document.getElementById('loading').innerHTML = str.substring(0, index);
                 index += offset;
-                console.log('run');
             }, 50);
         </script>
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
