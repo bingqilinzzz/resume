@@ -23,14 +23,12 @@
         }
     ],
     "skills": [
-        {"name": "photoshop", "level": 4},
-        {"name": "jQuery", "level": 5},
-        {"name": "CSS", "level": 4},
-        {"name": "PHP", "level": 4},
-        {"name": "Mysql", "level": 3},
-        {"name": "Node.js", "level": 3},
+        {"name": "photoshop", "level": 2},
         {"name": "HTML", "level": 3},
-        {"name": "Perl", "level": 1}
+        {"name": "CSS", "level": 4},
+        {"name": "jQuery", "level": 5},
+        {"name": "PHP", "level": 2},
+        {"name": "Mysql", "level": 2},
     ],
     "hobbies": ["coding", "reading", "running"]
 }
