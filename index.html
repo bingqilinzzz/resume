@@ -78,8 +78,9 @@
                             </div>
                             <div class="xcontent col-sm-9 col-xs-12">
                                 <div class="company">{{work.company}}</div>
-                                <div class="xposition">{{work.xposition}}</div>
-                                <div class="xinfo"><p>{{work.responsebility}}</p></div>
+                                <div class="descript">{{work.descript}}</div>
+                                <div class="xposition">{{work.position}}</div>
+                                <div class="xinfo"><p v-for="m in work.responsbility" class="margin0">{{m}}</p></div>
                             </div>
                         </div>
                     </div>
@@ -127,6 +128,26 @@
                             <i class="fa fa-circle" aria-hidden="true"></i>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div id="projects" class="section">
+                <div class="header">
+                    <i class="fa fa-link" aria-hidden="true"></i>
+                    <span class="title">projects</span>
+                </div>
+                <div class="body-content">
+                  <div class="item" v-for="project in projects">
+                    <div class="wrap row">
+                    <div class="xtime col-sm-2 col-xs-12"></div>
+                    <div class="dot col-sm-1 col-xs-12">
+                      <i class="dotted" aria-hidden="true"></i>
+                    </div>
+                    <div class="xcontent col-sm-9 col-xs-12">
+                      <div class="pro-names company">{{project.name}}</div>
+                      <div class="pro-links"><a>{{project.link}}</a></div>
+                    </div>
+                  </div>
+                  </div>
                 </div>
             </div>
             <div id="hobbies" class="section">

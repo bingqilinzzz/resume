@@ -172,6 +172,13 @@ html, body {
 .lang div img {
     width: 36px;
 }
+#hobbies .rows div {
+    text-align: center;
+    border-right: 1px solid #266eb3;
+}
+#hobbies .rows div:last-child {
+    border: 0px;
+}
 @media (max-width: 768px) {
     .photo {
         text-align: center;
