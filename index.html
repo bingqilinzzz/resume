@@ -64,7 +64,7 @@
             <div id="work-experience" class="section">
                 <div class="header">
                     <i class="fa fa-briefcase" aria-hidden="true"></i>
-                    <span class="title">Work experience</span>
+                    <span class="title" v-for="work in works">{{work.title}}</span>
                 </div>
                 <div class="body-content">
                     <div class="item" v-for="work in works">
@@ -89,7 +89,7 @@
             <div id="education" class="section">
                 <div class="header">
                     <i class="fa fa-university" aria-hidden="true"></i>
-                    <span class="title">Education</span>
+                    <span class="title" v-for="education in educations">{{education.title}}</span>
                 </div>
                 <div class="body-content">
                     <div class="item" v-for="education in educations">
@@ -104,7 +104,7 @@
                             <div class="xcontent col-sm-9 col-xs-12">
                                 <div class="company">{{education.university}}</div>
                                 <div class="xposition">{{education.diploma}}&nbsp;&nbsp;&nbsp;&nbsp;{{education.major}}</div>
-                                <div class="xinfo"><p v-for="m in education.majorcourse">{{m}}</p></div>
+                                <div class="xinfo"><p>{{education.majorcourse}}</p></div>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
             <div id="skillset" class="section">
                 <div class="header">
                     <i class="fa fa-wrench" aria-hidden="true"></i>
-                    <span class="title">My skillset</span>
+                    <span class="title">skills</span>
                 </div>
                 <div class="skills rows">
                     <div class="skill col-xs-12 col-sm-6 col-md-3" v-for="skill in skills">
@@ -133,7 +133,7 @@
             <div id="projects" class="section">
                 <div class="header">
                     <i class="fa fa-link" aria-hidden="true"></i>
-                    <span class="title">projects</span>
+                    <span class="title" v-for="project in projects">{{project.title}}</span>
                 </div>
                 <div class="body-content">
                   <div class="item" v-for="project in projects">
@@ -161,10 +161,15 @@
                     </div>
                 </div>
             </div>
+        <div class="covter">
+            <div id="triangle-down" class="triangle"></div>
+            <a href="covter.html">COVER LETTER</a>
+        </div>
         </div>
         <div id="loading-wrap" class="loading">
             <div id="loading">loading...</div>
         </div>
+
         <script type="text/javascript">
             var interval = 0;
             function startLoading() {

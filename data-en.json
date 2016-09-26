@@ -1,12 +1,21 @@
 {
     "educations":[
         {
-            "start":"2011/9/1",
-            "end":"2014/4",
-            "university":"laurentian University",
-            "major":"computer science",
-            "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
+            "title":"education",
+            "start":"since",
+            "end":"2016/9",
+            "university":"Herzing College",
+            "major":"Industry drafting",
+            "diploma":"DVS",
+            "majorcourse": ["drafting"]
+        },
+        {
+            "start":"2016/7",
+            "end":"2016/8",
+            "university":"Jade College",
+            "major":"French",
+            "diploma":"French B2",
+            "majorcourse": ["French"]
         },
         {
             "start":"2011/9",
@@ -14,28 +23,28 @@
             "university":"laurentian University",
             "major":"computer science",
             "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
+            "majorcourse": [
+                "Data structure, UNIX operating system, Computer network, Internet tools."
+            ]
         },
         {
-            "start":"2011/9",
-            "end":"2014/4",
-            "university":"laurentian University",
-            "major":"computer science",
-            "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
+            "start":"2008/9",
+            "end":"2011/6",
+            "university":"Beijing Information Science and Technology University",
+            "major":"Information and Computing Science",
+            "diploma":"Bechelor",
+            "majorcourse": ["Math, Operating system, C, C++."]
         },
         {
-            "start":"2011/9",
-            "end":"2014/4",
-            "university":"laurentian University",
-            "major":"computer science",
-            "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
+            "start":"2005/9",
+            "end":"2008/6",
+            "university":"BeiJing 18th High School"
         }
     ],
 
     "works": [
         {
+            "title":"work experience",
             "start": "2016/6",
             "end": "2016/11",
             "company": "shanghai hode information technology co.,ltd",
@@ -84,29 +93,30 @@
     ],
 
     "projects":[
-        {
+        {   
+            "title":"project",
             "name":"BML2015-live|PC",
             "link":"http://www.bilibili.com/html/BML2015-live.html"
         },
         {
-            "name":"BML2015-live|PC",
-            "link":"http://www.bilibili.com/html/BML2015-live.html"
+            "name":"BML2015-replay|PC",
+            "link":"http://www.bilibili.com/html/2015bml_replay.html"
         },
         {
-            "name":"BML2015-live|PC",
-            "link":"http://www.bilibili.com/html/BML2015-live.html"
+            "name":"iidariho2015|responsbility",
+            "link":"hd.bilibili.com/page/iidariho2015"
         },
         {
-            "name":"BML2015-live|PC",
-            "link":"http://www.bilibili.com/html/BML2015-live.html"
+            "name":"symphony|responsibility",
+            "link":"hd.bilibili.com/page/symphony2015"
         },
         {
-            "name":"BML2015-live|PC",
-            "link":"http://www.bilibili.com/html/BML2015-live.html"
+            "name":"Run Zetang medical |mobile",
+            "link":"lab.julia.moe/final"
         },
         {
-            "name":"BML2015-live|PC",
-            "link":"http://www.bilibili.com/html/BML2015-live.html"
+            "name":"my music website|PC",
+            "link":"http://project.julia.moe"
         }
     ],
 

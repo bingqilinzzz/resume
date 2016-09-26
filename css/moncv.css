@@ -203,3 +203,26 @@ html, body {
         padding: 32px 20px;
     }
 }
+a:hover {
+    cursor: pointer;
+}
+.covter {
+    line-height: 100px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+
+}
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #23527c;
+ }
+ .triangle {
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+ }

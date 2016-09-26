@@ -1,70 +1,79 @@
 {
     "educations":[
+        {   
+            "title":"éducation",
+            "start":"depuis",
+            "end":"2016/9",
+            "university":"College de Herzing",
+            "major":"rédaction de l'industrie",
+            "diploma":"DVS",
+            "majorcourse": ["préparation"]
+        },
         {
-            "start":"2011/10/1",
-            "end":"2014/4",
-            "university":"l'university de Laurentian",
-            "major":"computer science",
-            "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
+            "start":"2016/7",
+            "end":"2016/8",
+            "university":"College de Jade",
+            "major":"Français",
+            "diploma":"Français B2",
+            "majorcourse": ["Français"]
         },
         {
             "start":"2011/9",
             "end":"2014/4",
-            "university":"laurentian University",
-            "major":"computer science",
-            "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
+            "university":"l'University de Lauranrian",
+            "major":"l'informatique",
+            "diploma":"Bac",
+            "majorcourse": [
+                "Structure de données, système d'exploitation UNIX, Réseau informatique, outils Internet."
+            ]
         },
         {
-            "start":"2011/9",
-            "end":"2014/4",
-            "university":"laurentian University",
-            "major":"computer science",
-            "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
+            "start":"2008/9",
+            "end":"2011/6",
+            "university":"l'University de Sciences de l'information et de la technologie à BeiJing",
+            "major":"l'informatition et de l'informatique",
+            "diploma":"Bechelor",
+            "majorcourse": ["Math, système d'exploitation, C, C++."]
         },
         {
-            "start":"2011/9",
-            "end":"2014/4",
-            "university":"laurentian University",
-            "major":"computer science",
-            "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
+            "start":"2005/9",
+            "end":"2008/6",
+            "university":"lycée 18ème à BeiJing"
         }
     ],
 
     "works": [
         {
-            "start": "2016/16",
+            "title":"Expérience professionnelle",
+            "start": "2016/6",
             "end": "2016/11",
-            "company": "shanghai hode information technology co.,ltd",
-            "position": "front-end web developer",
-            "descript":"Bilibili is a video sharing website themed around anime, manga, and game fandom based in China, where users can submit view and add commentary subtitles on videos.(www.bilibili.com)",
+            "company": "shanghai détiennent la technologie de l'information co., ltd",
+            "position": "programmeuse",
+            "descript":"",
             "responsbility": [
-                "Developed webpages using Html, CSS and JS."
+                "Utilisez Html, CSS et JS pour développer des site Web."
             ]
         },
         {
             "start": "2014/12",
             "end": "2015/4",
-            "company": "Shanghai yuanchang information CO., LTD",
-            "position": "front-end web developer",
+            "company": "Yuan Chang information CO., LTd à ShangHai",
+            "position": "programmeuse",
             "responsbility": [
-                "Developed web pages using Html, CSS and some JS framework such as AngularJS.",
-                "Fixed bugs."
+                "Utilisez Html, CSS et JS ou JS cadre comme AngularJS. pour développer.",
+                "Modifiez le bug."
             ]
         },
         {
             "start": "2014/4",
             "end": "2014/11",
-            "company": "China Z.Pharmaceutical, productivity centre",
-            "position": "product manager",
+            "company": "Chine Z.Pharmaceutical, centre de productivité",
+            "position": "chef de produit",
             "responsbility": [
-                "Page and function design of my company’s website.",
-                "Communicated with my boss and web developer to make sure the project would go well.",
-                "Used Axure, Xmind and Sketch to do the demand design.",
-                "Drew prototype figure and writing requirement document."
+                "Étudier la page et la fonction de Web.",
+                "Parlez avec mon patron et le programmeure pour tout va bien",
+                "Utilisez Axure, Xmind et Sketch pour projet.",
+                "Dessiner forme originelle et écrire La demande de document."
             ]
         }
     ],
@@ -85,30 +94,31 @@
 
     "projects":[
         {
-            "name":"BML2015-live|PC",
+            "title":"projet",
+            "name":"BML2015-l'émission|PC",
             "link":"http://www.bilibili.com/html/BML2015-live.html"
         },
         {
-            "name":"BML2015-live|PC",
-            "link":"http://www.bilibili.com/html/BML2015-live.html"
+            "name":"BML2015-émission enregistrée|PC",
+            "link":"http://www.bilibili.com/html/2015bml_replay.html"
         },
         {
-            "name":"BML2015-live|PC",
-            "link":"http://www.bilibili.com/html/BML2015-live.html"
+            "name":"Bon Anniversaire de Rippi|Réponse de la formule",
+            "link":"hd.bilibili.com/page/iidariho2015"
         },
         {
-            "name":"BML2015-live|PC",
-            "link":"http://www.bilibili.com/html/BML2015-live.html"
+            "name":"Saint Seiya|Réponse de la formule",
+            "link":"hd.bilibili.com/page/symphony2015"
         },
         {
-            "name":"BML2015-live|PC",
-            "link":"http://www.bilibili.com/html/BML2015-live.html"
+            "name":"Run Zetang Industrie pharmaceutique |téléphone portable",
+            "link":"lab.julia.moe/final"
         },
         {
-            "name":"BML2015-live|PC",
-            "link":"http://www.bilibili.com/html/BML2015-live.html"
+            "name":"mon web de musique|PC",
+            "link":"http://project.julia.moe"
         }
     ],
 
-    "hobbies": ["coding", "reading", "running","cooking"]
+    "hobbies": ["programmation", "lire des livre", "courir","faire la cuisine"]
 }

@@ -1,12 +1,20 @@
 {
     "educations":[
         {
-            "start":"2011/9/1",
-            "end":"2014/4",
-            "university":"laurentian University",
-            "major":"computer science",
-            "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
+            "start":"since",
+            "end":"2016/9",
+            "university":"Herzing College",
+            "major":"Industry drafting",
+            "diploma":"DVS",
+            "majorcourse": ["drafting"]
+        },
+        {
+            "start":"2016/7",
+            "end":"2016/8",
+            "university":"Jade College",
+            "major":"French",
+            "diploma":"French B2",
+            "majorcourse": ["French"]
         },
         {
             "start":"2011/9",
@@ -14,23 +22,17 @@
             "university":"laurentian University",
             "major":"computer science",
             "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
+            "majorcourse": [
+                "Data structure, UNIX operating system, Computer network, Internet tools."
+            ]
         },
         {
-            "start":"2011/9",
-            "end":"2014/4",
-            "university":"laurentian University",
-            "major":"computer science",
-            "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
-        },
-        {
-            "start":"2011/9",
-            "end":"2014/4",
-            "university":"laurentian University",
-            "major":"computer science",
-            "diploma":"bachelor",
-            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools.", "Data structure, UNIX operating system, Computer network, Internet tools."]
+            "start":"2008/9",
+            "end":"2011/6",
+            "university":"Beijing Information Science and Technology University",
+            "major":"Information and Computing Science",
+            "diploma":"Bechelor",
+            "majorcourse": ["Data structure, UNIX operating system, Computer network, Internet tools."]
         }
     ],
 

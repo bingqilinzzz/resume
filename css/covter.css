@@ -38,3 +38,84 @@ html, body {
     left: 50%;
     top: 7px;
 }
+/* resume body */
+.resume {
+    padding: 50px 36px;
+}
+
+.myinfo {
+    margin: 20px 0;
+}
+.summary .name {
+    font-size: 28px;
+    font-weight: bold;
+}
+.summary .cv {
+    font-size: 12px;
+    color: grey;
+}
+.myinfo .photo img {
+    border-radius: 50%;
+    height: 100px;
+}
+
+/* vertical content and section titles */
+.header {
+    font-size: 24px;
+}
+.header i {
+    padding: 20px 0px 20px 20px;
+}
+.text {
+    font-size: 16px;
+    margin: 10px 40px;
+}
+.manager {
+    font-size: 18px;
+    line-height: 100px;
+}
+.raw {
+    display: inline-block;
+}
+.logo1 {
+    padding: 35px;
+}
+.con1 {
+    padding: 20px;
+}
+
+.foot {
+    font-size: 16px;
+    margin-left: 30px;
+}
+.nameme {
+    line-height: 100px;
+}
+
+
+@media (max-width: 768px) {
+    .photo {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .item:before {
+        display: none;
+    }
+    .body-content .dot {
+        display: none;
+    }
+    .xtime {
+        margin-bottom: 10px;
+    }
+    .header i {
+        padding: 0px;
+    }
+    .start, .end {
+        display: inline-block;
+    }
+    .resume {
+        padding: 32px 20px;
+    }
+}
+
+
