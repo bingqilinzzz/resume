@@ -144,6 +144,9 @@ html, body {
 .xposition {
     color: #266eb3;
 }
+.descript {
+	color:grey;
+}
 .skills .fa {
     padding: 0;
 }
@@ -183,4 +186,10 @@ html, body {
     .resume {
         padding: 32px 20px;
     }
+}
+.margin0 {
+	margin: 0;
+}
+a:hover{
+	cursor:pointer;
 }

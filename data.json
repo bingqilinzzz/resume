@@ -34,36 +34,81 @@
         }
     ],
 
-    "work": [
+    "works": [
         {
-            "start": "2015/10/12",
-            "end": "2016/09/12",
-            "company": "BiliBili",
-            "position": "front-end",
-            "responsebility": "Under direct supervision, processes routine orders for material/merchandise or handles part of a more complex order processing system. May follow orders from placement to delivery, using a non-complex manual or computerized order processing system. Maintains records of orders, prices, inventory, and related data under well-defined procedures. Typically requires a high school education or equivalent and less than two years of related experience."
+            "start": "2016/6",
+            "end": "2016/11",
+            "company": "shanghai hode information technology co.,ltd",
+            "position": "front-end web developer",
+            "descript":"Bilibili is a video sharing website themed around anime, manga, and game fandom based in China, where users can submit view and add commentary subtitles on videos.(www.bilibili.com)",
+            "responsbility": [
+                "Developed webpages using Html, CSS and JS."
+            ]
         },
         {
-            "start": "2015/10/12",
-            "end": "2016/09/12",
-            "company": "Glendale, CA",
-            "position": "front-end|product mangement",
-            "responsebility": "Assigned client cases, Executive Customer Communications, Escalated Customer Complaints and Legal customer issues in a professional and timely manner. When case volume mandates, provide support to the CR department by handling client cases. In addition be the designated back up for Client Cars. "
+            "start": "2014/12",
+            "end": "2015/4",
+            "company": "Shanghai yuanchang information CO., LTD",
+            "position": "front-end web developer",
+            "responsbility": [
+                "Developed web pages using Html, CSS and some JS framework such as AngularJS.",
+                "Fixed bugs."
+            ]
         },
         {
-            "start": "2015/10/12",
-            "end": "2016/09/12",
-            "company": "BiliBili",
-            "position": "front-end",
-            "responsebility": "Under direct supervision, processes routine orders for material/merchandise or handles part of a more complex order processing system. May follow orders from placement to delivery, using a non-complex manual or computerized order processing system. Maintains records of orders, prices, inventory, and related data under well-defined procedures. Typically requires a high school education or equivalent and less than two years of related experience."
+            "start": "2014/4",
+            "end": "2014/11",
+            "company": "China Z.Pharmaceutical, productivity centre",
+            "position": "product manager",
+            "responsbility": [
+                "Page and function design of my company’s website.",
+                "Communicated with my boss and web developer to make sure the project would go well.",
+                "Used Axure, Xmind and Sketch to do the demand design.",
+                "Drew prototype figure and writing requirement document."
+            ]
         }
     ],
+
     "skills": [
-        {"name": "photoshop", "level": 2},
-        {"name": "HTML", "level": 3},
+        {"name": "HTML", "level": 4},
         {"name": "CSS", "level": 4},
-        {"name": "jQuery", "level": 5},
+        {"name": "javascript", "level": 3},
+        {"name": "bootstrap", "level": 3},
+        {"name": "jQuery", "level": 3},
+        {"name": "D3js", "level": 2},
+        {"name": "Angularjs", "level": 2},
+        {"name": "git", "level": 3},
         {"name": "PHP", "level": 2},
-        {"name": "Mysql", "level": 2}
+        {"name": "Mysql", "level": 2},
+        {"name": "photoshop", "level": 2}
     ],
-    "hobbies": ["coding", "reading", "running"]
+
+    "projects":[
+        {
+            "name":"BML2015-live|PC",
+            "link":"http://www.bilibili.com/html/BML2015-live.html"
+        },
+        {
+            "name":"BML2015-live|PC",
+            "link":"http://www.bilibili.com/html/BML2015-live.html"
+        },
+        {
+            "name":"BML2015-live|PC",
+            "link":"http://www.bilibili.com/html/BML2015-live.html"
+        },
+        {
+            "name":"BML2015-live|PC",
+            "link":"http://www.bilibili.com/html/BML2015-live.html"
+        },
+        {
+            "name":"BML2015-live|PC",
+            "link":"http://www.bilibili.com/html/BML2015-live.html"
+        },
+        {
+            "name":"BML2015-live|PC",
+            "link":"http://www.bilibili.com/html/BML2015-live.html"
+        }
+    ],
+
+    "hobbies": ["coding|", "reading|", "running|","cooking"]
 }

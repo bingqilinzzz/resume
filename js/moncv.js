@@ -8,7 +8,7 @@ $(function() {
         });
         new Vue({
             el: '#work-experience',
-            data: { works: json.work }
+            data: { works: json.works }
         });
         new Vue({
             el: '#hobbies',
@@ -17,6 +17,10 @@ $(function() {
         new Vue({
             el: '#skillset',
             data: { skills: json.skills }
+        });
+        new Vue({
+            el: '#projects',
+            data: { projects: json.projects }
         });
         $('.level').each(function(index, elem) {
             var level = parseInt($(elem).attr('data-level'));
