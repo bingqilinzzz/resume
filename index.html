@@ -10,10 +10,22 @@
         <link href="css/moncv.css" rel="stylesheet">
     </head>
     <body>
-        <div class="resume" style="display: none">
+        <div id="resume" class="resume" style="display: none">
             <div class="summary">
-                <div class="name">Qingyun Zhang</div>
-                <div class="cv">Curriculum vitae</div>
+                <div class="header row">
+                    <div class="col-xs-6">
+                        <div class="name">Qingyun Zhang</div>
+                        <div class="cv">Curriculum vitae</div>
+                    </div>
+                    <div class="lang col-xs-6">
+                        <div class="l on" data-lang="en">
+                            <img alt="en" src="imgs/Canada.png"/>
+                        </div>
+                        <div class="l" data-lang="fr">
+                            <img alt="fr" src="imgs/France.png"/>
+                        </div>
+                    </div>
+                </div>
                 <div class="myinfo row">
                     <div class="vertical photo col-xs-12 col-sm-12 col-md-push-8 col-md-4">
                         <img src="imgs/face.jpg">
@@ -91,7 +103,7 @@
                             <div class="xcontent col-sm-9 col-xs-12">
                                 <div class="company">{{education.university}}</div>
                                 <div class="xposition">{{education.diploma}}&nbsp;&nbsp;&nbsp;&nbsp;{{education.major}}</div>
-                                <div class="xinfo"><p>{{education.majorcourse}}</p></div>
+                                <div class="xinfo"><p v-for="m in education.majorcourse">{{m}}</p></div>
                             </div>
                         </div>
                     </div>
@@ -129,18 +141,29 @@
                 </div>
             </div>
         </div>
-        <div class="loading">
+        <div id="loading-wrap" class="loading">
             <div id="loading">loading...</div>
         </div>
         <script type="text/javascript">
-            var str = 'loading...';
-            var index = str.length;
-            var offset = -1;
-            var interval = setInterval(function() {
-            if (index === 0 || index > str.length) offset *= -1;
-            document.getElementById('loading').innerHTML = str.substring(0, index);
-                index += offset;
-            }, 50);
+            var interval = 0;
+            function startLoading() {
+                var str = 'loading...';
+                var index = str.length;
+                var offset = -1;
+                document.getElementById('loading-wrap').style.display = 'block';
+                document.getElementById('resume').style.display = 'none';
+                interval = setInterval(function() {
+                if (index === 0 || index > str.length) offset *= -1;
+                document.getElementById('loading').innerHTML = str.substring(0, index);
+                    index += offset;
+                }, 50);
+            };
+            function stopLoading() {
+                document.getElementById('loading-wrap').style.display = 'none';
+                document.getElementById('resume').style.display = 'block';
+                clearInterval(interval);
+            };
+            startLoading();
         </script>
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
