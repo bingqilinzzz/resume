@@ -8,7 +8,7 @@ $(function() {
         });
         new Vue({
             el: '#work-experience',
-            data: { works: json.educations }
+            data: { works: json.work }
         });
         new Vue({
             el: '#hobbies',
@@ -28,6 +28,6 @@ $(function() {
             $('.resume').css('display', 'block');
             $('.loading').css('display', 'none');
             clearInterval(interval);
-        }, 3000);
+        }, 0);
     });
 });
