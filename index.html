@@ -64,7 +64,7 @@
             <div id="work-experience" class="section">
                 <div class="header">
                     <i class="fa fa-briefcase" aria-hidden="true"></i>
-                    <span class="title" v-for="work in works">{{work.title}}</span>
+                    <span class="title">{{title.work}}</span>
                 </div>
                 <div class="body-content">
                     <div class="item" v-for="work in works">
@@ -89,7 +89,7 @@
             <div id="education" class="section">
                 <div class="header">
                     <i class="fa fa-university" aria-hidden="true"></i>
-                    <span class="title" v-for="education in educations">{{education.title}}</span>
+                    <span class="title">{{title.education}}</span>
                 </div>
                 <div class="body-content">
                     <div class="item" v-for="education in educations">
@@ -113,7 +113,7 @@
             <div id="skillset" class="section">
                 <div class="header">
                     <i class="fa fa-wrench" aria-hidden="true"></i>
-                    <span class="title">skills</span>
+                    <span class="title">{{title.skills}}</span>
                 </div>
                 <div class="skills rows">
                     <div class="skill col-xs-12 col-sm-6 col-md-3" v-for="skill in skills">
@@ -133,7 +133,7 @@
             <div id="projects" class="section">
                 <div class="header">
                     <i class="fa fa-link" aria-hidden="true"></i>
-                    <span class="title" v-for="project in projects">{{project.title}}</span>
+                    <span class="title">{{title.project}}</span>
                 </div>
                 <div class="body-content">
                   <div class="item" v-for="project in projects">
@@ -153,7 +153,7 @@
             <div id="hobbies" class="section">
                 <div class="header">
                     <i class="fa fa-heart" aria-hidden="true"></i>
-                    <span class="title">Hobbies</span>
+                    <span class="title">{{title.hobbies}}</span>
                 </div>
                 <div class="rows">
                     <div class="col-xs-6 col-sm-3 col-md-2" v-for="hobby in hobbies">

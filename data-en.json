@@ -1,7 +1,13 @@
 {
+    "title": {
+        "work": "Work experience",
+        "education": "Education",
+        "skills": "Skills",
+        "project": "Projects",
+        "hobbies": "Hobbies"
+    },
     "educations":[
         {
-            "title":"education",
             "start":"since",
             "end":"2016/9",
             "university":"Herzing College",
@@ -44,7 +50,6 @@
 
     "works": [
         {
-            "title":"work experience",
             "start": "2016/6",
             "end": "2016/11",
             "company": "shanghai hode information technology co.,ltd",
@@ -93,8 +98,7 @@
     ],
 
     "projects":[
-        {   
-            "title":"project",
+        {
             "name":"BML2015-live|PC",
             "link":"http://www.bilibili.com/html/BML2015-live.html"
         },

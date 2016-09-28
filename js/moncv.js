@@ -9,33 +9,16 @@ $(function() {
         load(lang);
     });
 });
-var json = {}, educations, works, hobbies, skills, projects;
-educations = new Vue({
-    el: '#education',
+
+var json = {}, resume;
+
+resume = new Vue({
+    el: '#resume',
     data: json
 });
-works = new Vue({
-    el: '#work-experience',
-    data: { works: json.works }
-});
-hobbies = new Vue({
-    el: '#hobbies',
-    data: { hobbies: json.hobbies}
-});
-skills = new Vue({
-    el: '#skillset',
-    data: { skills: json.skills }
-});
-projects = new Vue({
-    el: '#projects',
-    data: { projects: json.projects }
-});
+
 var render = function(data) {
-    educations.$data = data;
-    works.$data = data;
-    hobbies.$data = data;
-    skills.$data = data;
-    projects.$data = data;
+    resume.$data = data;
     setTimeout(function() {
         $('.level').each(function(index, elem) {
             var level = parseInt($(elem).attr('data-level'));

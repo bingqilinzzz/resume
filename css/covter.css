@@ -9,6 +9,10 @@ html, body {
     position: relative;
 }
 
+.fa {
+    padding: 10px 10px;
+}
+
 .break-line {
     position: relative;
     border-bottom: 2px solid #ccc;
@@ -62,6 +66,7 @@ html, body {
 /* vertical content and section titles */
 .header {
     font-size: 24px;
+    padding-bottom: 20px;
 }
 .header i {
     padding: 20px 0px 20px 20px;
@@ -94,28 +99,8 @@ html, body {
 
 
 @media (max-width: 768px) {
-    .photo {
+    .logo1 {
+        padding: 0;
         text-align: center;
-        padding: 20px 0;
-    }
-    .item:before {
-        display: none;
-    }
-    .body-content .dot {
-        display: none;
-    }
-    .xtime {
-        margin-bottom: 10px;
-    }
-    .header i {
-        padding: 0px;
-    }
-    .start, .end {
-        display: inline-block;
-    }
-    .resume {
-        padding: 32px 20px;
     }
 }
-
-

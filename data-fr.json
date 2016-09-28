@@ -1,7 +1,13 @@
 {
+    "title": {
+        "work": "Expérience professionnelle",
+        "education": "Éducation",
+        "skills": "Skills",
+        "project": "projet",
+        "hobbies": "Hobbies"
+    },
     "educations":[
-        {   
-            "title":"éducation",
+        {
             "start":"depuis",
             "end":"2016/9",
             "university":"College de Herzing",
@@ -44,7 +50,6 @@
 
     "works": [
         {
-            "title":"Expérience professionnelle",
             "start": "2016/6",
             "end": "2016/11",
             "company": "shanghai détiennent la technologie de l'information co., ltd",
@@ -94,7 +99,6 @@
 
     "projects":[
         {
-            "title":"projet",
             "name":"BML2015-l'émission|PC",
             "link":"http://www.bilibili.com/html/BML2015-live.html"
         },
